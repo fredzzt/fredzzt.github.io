@@ -8,6 +8,7 @@ keyword: "Android"
 url: "http://fredzzt.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/fredzzt/fredzzt.github.io.git" # you code repository
+theme_github_repo: "https://github.com/Huxpro/huxpro.github.io.git"
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -21,6 +22,7 @@ RSS: false
 # weibo_username:     qiubaiying
 # zhihu_username:     qiubaiying
 github_username:    fredzzt
+github_themenauthor:    Huxpro
 # facebook_username:  baiying.qiu.7
 # jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
