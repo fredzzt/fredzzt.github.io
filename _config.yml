@@ -1,39 +1,37 @@
-# Jekyll configuration
+title: Hello, world! I'm David Freeman
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
 
-name: My blog
-description: A jekyll theme
+# Author Settings
+author: David Freeman # add your name
+author-img: david-freeman.jpg # add your photo
+about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
+twitter: # add your Twitter handle
+facebook: # add your Facebook handle
+github: artemsheludko # add your Github handle
+linkedin: # add your Linkedin handle
+email: # add your Email address
 
-# url is currently only used only for the RSS feed in feed.xml
-url: https://scotte.github.io/jekyll-clean
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
 
-# baseurl will often be '', but for a project page on gh-pages, it needs to
-# be the project name.
-# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
-#     run it like so: jekyll serve --baseurl=''
-baseurl: ''
+# Tracker
+analytics: # Google Analytics
 
-# This can be '' to hide the Github nav button
-github: 'scotte/jekyll-clean'
-
-# Set this to your UA-# value, or '' to disable the block completely
-gaaccount: ''
-
-# The 'comments' setting enables comments. You'll need to select either
-# disqus or isso below to choose a comment system. Individual posts can
-# override 'comments' to disable on a post-by-post basis.
-comments: true
-
-# Set this to your public isso URL to enable comments via isso. Set to '' to disable isso.
-isso: ''
-
-# Set this to your disqus shortname to enable comments via disqus. Set to '' to disable disqus.
-disqus: ''
-
-permalink: /:year/:month/:title
-paginate: 3
-
-highlighter: rouge
+# Build Settings
 markdown: kramdown
-gems: ['jekyll-paginate']
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
 
-exclude: ['README.md', 'LICENSE']
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
