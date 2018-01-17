@@ -6,4 +6,6 @@ layout: default
 
 _yay_
 
+[Link to another page](test).
+
 [back](./)
