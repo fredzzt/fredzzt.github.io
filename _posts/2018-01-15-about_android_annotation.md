@@ -28,10 +28,13 @@ tags:
 
 ### Step 2 修改gradle配置
 
+### Step 3 创建一个注解类
 
+### Step 4 创建一个解析器
 
+可以运用AbstractProcessor提供的四个重写方法，来控制对自定义注解的处理。
 
-
+### Step 5 创建RESOURCE文件
 
 
 
